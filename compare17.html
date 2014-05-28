@@ -1,0 +1,144 @@
+<!DOCTYPE html5>
+
+<html> 
+
+<head>
+	<title>
+	CS481 Blue Team Project 3
+	</title>
+	
+
+	<meta name="description" content="CS481 The Blue Team">
+	<meta name="keywords" content="CS481 Contextual Design Part 3">
+	<meta name="author" content="Patrick Saperstein, Kyle Olsen, Jamie Cooley">
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+function showDiv() {document.getElementById('check').style.visibility = "visible";}
+</script>
+</head>
+
+<body>
+	<div id="titlebar">
+		<img src="img/logo.jpg" id="logo" />
+		<div id="titletext">2013 Lacert Individual Tax</div>
+	</div>
+	<nav>
+		<ul >
+			<li ><a href="#">Client</a>
+				<ul id="fmenu" class="submenu">
+					<li class="inactive"><a href="#">New</a></li>
+					<li class="inactive"><a href="#">Open</a></li>
+					<li class="inactive"><a href="#">Save</a></li>
+					<li><a href="#">Import From Scanner</a></li>
+				</ul>
+			</li>
+			<li><a href="#">E-File</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Print</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Filter</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Detail</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Tools</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Import</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Settings</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Help</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Check out Client!</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<div id="iconbar"><img src="img/icons.jpg" id="icons" /></div>
+
+	<div id="content">
+		<div id="leftColumn">
+			<div id="popform">
+			<form id = "mainform" name="mainform" action="#" method="post">
+				<fieldset id="page 17">
+			<p>
+				<label for="Jduty">Jury Duty Pay - - - - - - - - - - - - - - - - - - - -</label>
+				<input type="text" name="Jduty" value="400.00"/>
+			</p>
+			<p>
+				<label for="Rincome">Rental of Personal Property Income - - - -</label>
+				<input type="text" name="lName" id="lName" value="300.00"/>
+			</p>
+			<p> - - - - - - - - - - - - - -
+				<input type="text" name="label1" class="OtherLabel" value="Aliens"/>
+				<input type="text" name="other1" id="ssn" value="1,400.00"/>
+			</p>
+			<p> - - - - - - - - - - - - - -
+				<input type="text" name="label2" class="OtherLabel" value="Gnomes"/>
+				<input type="text" name="other2" id="ssn" value="600.00"/>
+			</p>
+		</fieldset>
+			</form>
+			</div>
+		</div>
+			
+		<div id="rightcolumn">
+			<div id="pagelabel">Pages</div>
+
+			<div id="pagenavwrapper"><div id="pagenav">
+				<a class="pagesel" href="compare2.html" target="_self">2</a><br/>
+				<a class="pagesel" href="compare9.html" target="_self">9</a><br/>
+				<a class="pagesel" href="compare13.html" target="_self">13</a><br/>
+				<a class="pagesel" href="compare15.html" target="_self">15</a><br/>
+				<div id="selected">
+					<a >17</a>
+					<img id="check" src="img/check.jpg" alt="check" />
+				</div>
+				<a class="pagesel" href="compare21.html" target="_self">21</a><br/>
+			</div></div>
+			<form id="finform">
+				<input type="button" id="finbutton" name="finish" value="Finish" onclick="window.location.href='finishpage.html'"/>
+				<input type="button" id="canbutton" name="cancel" value="Cancel" onclick="window.location.href='index.html'"/>
+			</form>
+		</div>
+		<div id="scanimg">
+			<img  class="scaninput" src="img/p17/01.jpg" alt="Page 17 Input 1" />
+			<img  class="scaninput" src="img/p17/02.jpg" alt="Page 17 Input 2" />
+			<img  class="scaninput" src="img/p17/03.jpg" alt="Page 17 Input 3" />
+			<img  class="scaninput" src="img/p17/04.jpg" alt="Page 17 Input 4" />
+		</div>
+		<p id="verform">
+				<input type="button" id="vbutton" name="verify" value="Verify" onclick="showDiv()" />
+		</p>
+		<div>
+			<img src="img/statusbar.jpg" id="statusbar" />
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

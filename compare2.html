@@ -1,0 +1,180 @@
+<!DOCTYPE html5>
+
+<html> 
+
+<head>
+	<title>
+	CS481 Blue Team Project 3
+	</title>
+	
+
+	<meta name="description" content="CS481 The Blue Team">
+	<meta name="keywords" content="CS481 Contextual Design Part 3">
+	<meta name="author" content="Patrick Saperstein, Kyle Olsen, Jamie Cooley">
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+function showDiv() {document.getElementById('check').style.visibility = "visible";
+					document.getElementById('redx').style.visibility = "hidden";}
+</script>
+</head>
+
+<body>
+	<div id="titlebar">
+		<img src="img/logo.jpg" id="logo" />
+		<div id="titletext">2013 Lacert Individual Tax</div>
+	</div>
+	<nav>
+		<ul >
+			<li ><a href="#">Client</a>
+				<ul id="fmenu" class="submenu">
+					<li class="inactive"><a href="#">New</a></li>
+					<li class="inactive"><a href="#">Open</a></li>
+					<li class="inactive"><a href="#">Save</a></li>
+					<li><a href="#">Import From Scanner</a></li>
+				</ul>
+			</li>
+			<li><a href="#">E-File</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Print</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Filter</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Detail</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Tools</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Import</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Settings</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Help</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Check out Client!</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<div id="iconbar"><img src="img/icons.jpg" id="icons" /></div>
+
+	<div id="content">
+		<div id="leftColumn">
+			<div id="popform">
+			<form id = "mainform" name="mainform" action="#" method="post">
+				<fieldset id="page 2">
+					<p>
+						<label for="fName">First Name and Initial - - - - - - - - - - - - - - </label>
+						<input type="text" name="fName" id="fName" value="Harry H."/>
+					</p>
+					<p>
+						<label for="lName">Last Name - - - - - - - - - - - - - - - - - - - - - -</label>
+						<input type="text" name="lName" id="lName" value="Dresden"/>
+					</p>
+					<p>
+						<label for="ssn">Social Security Number - - - - - - - - - - - - </label>
+						<input type="text" name="ssn" id="ssn" pattern="^\d{3}\-\d{2}\-\d{4}$" value="234-567-890"/>
+					</p>
+					<p>
+						<label for="Occup">Occupation - - - - - - - - - - - - - - - - - - - - - -</label>
+						<input type="text" name="Occup" id="Occup" value="Professional Wizard"/>
+					</p>
+					<p>
+						<label for="dob">Date of Birth - - - - - - - - - - - - - - - - - - - - -</label>
+						<input type="text" name="dob" id="dob" value="10/31/1980"/>
+					</p>
+					<p>
+						<label for="hPhone">Home Phone - - - - - - - - - - - - - - - - - - - - -</label>
+						<input type="text" name="hPhone" id="hPhone" value="(331) 624-9741"/>
+					</p>
+					<p>
+						<label for="streetAddress">Street Address - - - - - - - - - - - - - - - - - - -</label>
+						<input type="text" name="streetAddress" id="streetAddress" value="221 	Descango Cir."/>	
+					</p>	
+					<p>	
+							<label for="aptNumber">Apartment number - - - - - - - - - - - - - - - - -</label>	
+							<input type="text" name="aptNumber" id="aptNumber" value="#27B"/>	
+					</p	>	
+					<p>	
+							<label for="city">City - - - - - - - - - - - - - - - - - - - - - - - - - - - -</label>	
+							<input type="text" name="city" id="city" value="Chicago"/>	
+					</p	>	
+					<p>	
+							<label for="state">State - - - - - - - - - - - - - - - - - - - - - - - - - - -</label>	
+							<input type="text" name="state" id="state" value="IL"/>	
+					</p	>	
+					<p>	
+							<label for="zip">ZIP Code - - - - - - - - - - - - - - - - - - - - - - -</label>	
+							<input type="text" name="zip" id="zip" value="60018"/>	
+					</p>	
+				</fieldset>
+			</form>
+			</div>
+		</div>
+			
+		<div id="rightcolumn">
+			<div id="pagelabel">Pages</div>
+			<div id="pagenavwrapper"><div id="pagenav">
+				<div id="selected">
+					<a >2</a>
+					<img id="check" src="img/check.jpg" alt="check" />
+					<img id="redx" src="img/redX.jpg" alt="redx" />
+				</div>
+				<a class="pagesel" href="compare9.html" target="_self">9</a><br/>
+				<a class="pagesel" href="compare13.html" target="_self">13</a><br/>
+				<a class="pagesel" href="compare15.html" target="_self">15</a><br/>
+				<a class="pagesel" href="compare17.html" target="_self">17</a><br/>
+				<a class="pagesel" href="compare21.html" target="_self">21</a><br/>
+			</div></div>
+			<form id="finform">
+				<input type="button" id="finbutton" name="finish" value="Finish" onclick="window.location.href='finishpage.html'"/>
+				<input type="button" id="canbutton" name="cancel" value="Cancel" onclick="window.location.href='index.html'"/>
+			</form>
+		</div>
+		<div id="scanimg">
+			<img  class="scaninput" src="img/p02/p02-1.jpg" alt="Page 2 Input 1" />
+			<img  class="scaninput" src="img/p02/p02-2.jpg" alt="Page 2 Input 2" />
+			<img  class="scaninput" src="img/p02/p02-3.jpg" alt="Page 2 Input 3" />
+			<img  class="scaninput" src="img/p02/p02-4.jpg" alt="Page 2 Input 4" />
+			<img  class="scaninput" src="img/p02/p02-5.jpg" alt="Page 2 Input 5" />
+			<img  class="scaninput" src="img/p02/p02-6.jpg" alt="Page 2 Input 6" />
+			<img  class="scaninput" src="img/p02/p02-7.jpg" alt="Page 2 Input 7" />
+			<img  class="scaninput" src="img/p02/p02-8.jpg" alt="Page 2 Input 8" />
+			<img  class="scaninput" src="img/p02/p02-9.jpg" alt="Page 2 Input 9" />
+			<img  class="scaninput" src="img/p02/p02-10.jpg" alt="Page 2 Input 10" />
+			<img  class="scaninput" src="img/p02/p02-11.jpg" alt="Page 2 Input 11" />
+		</div>
+		<p id="verform">
+				<input type="button" id="vbutton" name="verify" value="Verify" onclick="showDiv()" />
+		</p>
+		<div>
+			<img src="img/statusbar.jpg" id="statusbar" />
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html5>
+
+<html> 
+
+<head>
+	<title>
+	CS481 Blue Team Project 3
+	</title>
+	
+
+	<meta name="description" content="CS481 The Blue Team">
+	<meta name="keywords" content="CS481 Contextual Design Part 3">
+	<meta name="author" content="Patrick Saperstein, Kyle Olsen, Jamie Cooley">
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+function showDiv() {document.getElementById('check').style.visibility = "visible";}
+</script>
+</head>
+
+<body>
+	<div id="titlebar">
+		<img src="img/logo.jpg" id="logo" />
+		<div id="titletext">2013 Lacert Individual Tax</div>
+	</div>
+	<nav>
+		<ul >
+			<li ><a href="#">Client</a>
+				<ul id="fmenu" class="submenu">
+					<li class="inactive"><a href="#">New</a></li>
+					<li class="inactive"><a href="#">Open</a></li>
+					<li class="inactive"><a href="#">Save</a></li>
+					<li><a href="#">Import From Scanner</a></li>
+				</ul>
+			</li>
+			<li><a href="#">E-File</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Print</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Filter</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Detail</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Tools</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Import</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Settings</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Help</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Check out Client!</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<div id="iconbar"><img src="img/icons.jpg" id="icons" /></div>
+
+	<div id="content">
+		<div id="errbox">
+			<div id="scanbar">Import From Scanner</div>
+			<div id="scantext">An Error Occurred <br/>While Scanning</div>
+		<p id="scanbtn">
+			
+				<input type="button" id="dbutton" name="scancancel" value="Try Again" onclick="window.location.href='scannow.html'" />
+				<input type="button" id="cbutton" name="scandone" value="Cancel" onclick="window.location.href='index.html'" />
+			
+		</p>
+		</div>
+		<div>
+			<img src="img/statusbar.jpg" id="statusbar" />
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

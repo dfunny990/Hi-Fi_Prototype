@@ -1,0 +1,278 @@
+<!DOCTYPE html5>
+
+<html> 
+
+<head>
+	<title>
+	CS481 Blue Team Project 3
+	</title>
+	
+
+	<meta name="description" content="CS481 The Blue Team">
+	<meta name="keywords" content="CS481 Contextual Design Part 3">
+	<meta name="author" content="Patrick Saperstein, Kyle Olsen, Jamie Cooley">
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+function showDiv() {document.getElementById('check').style.visibility = "visible";}
+</script>
+</head>
+
+<body>
+	<div id="titlebar">
+		<img src="img/logo.jpg" id="logo" />
+		<div id="titletext">2013 Lacert Individual Tax</div>
+	</div>
+	<nav>
+		<ul >
+			<li ><a href="#">Client</a>
+				<ul id="fmenu" class="submenu">
+					<li class="inactive"><a href="#">New</a></li>
+					<li class="inactive"><a href="#">Open</a></li>
+					<li class="inactive"><a href="#">Save</a></li>
+					<li><a href="#">Import From Scanner</a></li>
+				</ul>
+			</li>
+			<li><a href="#">E-File</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Print</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Filter</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Detail</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Tools</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Import</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Settings</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Nothing To See Here</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Help</a>
+				<ul class="submenu">
+					<li class="inactive"><a href="#">Check out Client!</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<div id="iconbar"><img src="img/icons.jpg" id="icons" /></div>
+
+	<div id="content">
+		<div id="leftColumn">
+			<div id="popform">
+			<form id = "mainform" name="mainform" action="#" method="post">
+				<fieldset id="page 9">
+			<p>
+				<label for="input1txt">Did your marital status change during the year?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input1" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input1n">No</label>
+				<input type = "radio" name="input1" id="input1" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input1y">Yes</label>	
+			</div>
+			<p>
+				<label for="input2txt">Did your address change during the year?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input2" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input2n">No</label>
+				<input type = "radio" name="input2" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input1y">Yes</label>			
+			</div>	
+			<p>
+				<label for="input3txt">Could you be claimed as a dependent on another person's tax return for 2013?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input3" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input3n">No</label>
+				<input type = "radio" name="input3" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input3y">Yes</label>	
+			</div>
+			<p>
+				<label for="input4txt">Were there any changes in dependents?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input4" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input4n">No</label>
+				<input type = "radio" name="input4" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input4y">Yes</label>	
+			</div>	
+			<p>
+				<label for="input5txt">Were any of your unmarried children who might be claimed as dependents 19 years of age or older (or 24 years or older if student) at the end of 2013?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input5" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input5n">No</label>
+				<input type = "radio" name="input5" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input5y">Yes</label>		
+			</div>			
+			<p>
+				<label for="input6txt">Did you have any children under age 19 or full-time students under age 24 at the end of 2013, with intrest and dividend income in excess of $1,000, or total investment income in excess of $2,000?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input6" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input6n">No</label>
+				<input type = "radio" name="input6" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input6y">Yes</label>		
+			</div>
+			<p>
+				<label for="input7txt">Did you receive unreported tip income of $20 or more in any month?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input7" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input7n">No</label>
+				<input type = "radio" name="input7" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input7y">Yes</label>		
+			</div>
+			<p>
+				<label for="input8txt">Did you cash any Series EE U.S. savings boinds issued after 1989 and pay qualified higher education expenses for yourself, your spouse, or your dependents?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input8" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input8n">No</label>
+				<input type = "radio" name="input8" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input8y">Yes</label>		
+			</div>
+			<p>
+				<label for="input9txt">Did you receive any disability income?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input9" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input9n">No</label>
+				<input type = "radio" name="input9" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input9y">Yes</label>		
+			</div>
+			<p>
+				<label for="input10txt">Did you have any foreign income or pay any foreign taxes?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input10" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input10n">No</label>
+				<input type = "radio" name="input10" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input10y">Yes</label>		
+			</div>
+			<p>
+				<label for="input11txt">Did you start a buisness or farm, purchase rental or royalty property, or acquire an interest in a partnership, S corporation, trust, or REMIC?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input11" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input11n">No</label>
+				<input type = "radio" name="input11" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input11y">Yes</label>		
+			</div>
+			<p>
+				<label for="input12txt">Did you purchace or dispose of any buisness assets (furniture, equipment, vehicles, real estate, etc.), or convert any personal assets to business use?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input12" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input12n">No</label>
+				<input type = "radio" name="input12" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input12y">Yes</label>		
+			</div>
+			<p>
+				<label for="input13txt">Did you buy or sell any stocks, bonds or other investment property in 2013?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input13" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input13n">No</label>
+				<input type = "radio" name="input13" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input13y">Yes</label>		
+			</div>
+			<p>
+				<label for="input14txt">Did you purchase, sell, or refinance your principal home or second home, or did you take out a home equity loan?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input14" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input14n">No</label>
+				<input type = "radio" name="input14" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input14y">Yes</label>		
+			</div>
+			<p>
+				<label for="input15txt">Did you make any residential energy-efficient improvements or purchases involving solar, wind, geothermal or fuel cell energy sources?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input15" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input15n">No</label>
+				<input type = "radio" name="input15" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input15y">Yes</label>		
+			</div>
+			<p>
+				<label for="input16txt">Did you have any debts cancelled or forgiven?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input16" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input16n">No</label>
+				<input type = "radio" name="input16" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input16y">Yes</label>		
+			</div>
+			<p>
+				<label for="input17txt">Does anyone owe you money which has become uncollectible?</label>
+			</p>
+			<div class="radioinbox">
+				<input type = "radio" name="input17" value="No" checked="checked" class = "radioin"/>
+				<label class = "radioinL" for="input17n">No</label>
+				<input type = "radio" name="input17" value="Yes" class = "radioin"/>			
+				<label class = "radioinL" for="input17y">Yes</label>		
+			</div>
+			
+		</fieldset>
+			</form>
+			</div>
+		</div>
+			
+		<div id="rightcolumn">
+			<div id="pagelabel">Pages</div>
+
+			<div id="pagenavwrapper"><div id="pagenav">
+				
+				<a class="pagesel" href="compare2.html" target="_self">2</a><br/>
+				<div id="selected">
+					<a >9</a>
+					<img id="check" src="img/check.jpg" alt="check" />
+				</div>
+				<a class="pagesel" href="compare13.html" target="_self">13</a><br/>
+				<a class="pagesel" href="compare15.html" target="_self">15</a><br/>
+				<a class="pagesel" href="compare17.html" target="_self">17</a><br/>
+				<a class="pagesel" href="compare21.html" target="_self">21</a><br/>
+			</div></div>
+			<form id="finform">
+				<input type="button" id="finbutton" name="finish" value="Finish" onclick="window.location.href='finishpage.html'"/>
+				<input type="button" id="canbutton" name="cancel" value="Cancel" onclick="window.location.href='index.html'"/>
+			</form>
+		</div>
+		<img id="scanimg" src="img/p9-big.jpg" alt="Page 9" />
+		<p id="verform">
+				<input type="button" id="vbutton" name="verify" value="Verify" onclick="showDiv()" />
+		</p>
+		<div>
+			<img src="img/statusbar.jpg" id="statusbar" />
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>
